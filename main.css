@@ -1,0 +1,104 @@
+.main-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: url("https://figma.imgix.net/5M2puKwSoznulyXdFOeDll/ff8bcf78b377a8af78877483fe8a02ba/Github_Case_Study_Header_New.png?&w=1060&auto=compress%2Cformat&crop=entropy&fit=crop&q=75")
+      no-repeat;
+    background-size: 100%;
+  }
+  .search-container {
+    align-items: center;
+    width: 500px;
+    height: 45px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background: #fff;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    
+    gap: 1%;
+  }
+  .input {
+    border: none;
+    outline: none;
+    width: 90%;
+  }
+  .input:focus {
+    border-bottom: 1px solid rgba(27, 51, 131, 0.219);
+  }
+  .search {
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    height: 100%;
+    background-color: rgb(68, 23, 37);
+    border-color:  rgb(68, 23, 37);
+  }
+  .profile {
+    width: 400px;
+    margin: 0 auto;
+    background-color: rgba(136, 132, 132, 0.438);
+    backdrop-filter: blur(8px);
+    margin-top: 40px;
+    border-radius: 20px;
+    font-family: monospace;
+    overflow: hidden;
+    font-weight: 600;
+  }
+  .image {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.384);
+     margin: 0px;
+}
+  .img {
+    height: 90px;
+    
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  .name{
+      font-size: 20px;
+  }
+  .bio {
+    max-width: 100%;
+    word-break: normal;
+    padding: 20px 10px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px ;
+  }
+  .username {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    text-decoration: none;
+  }
+  .extra {
+    
+    display: flex;
+    height: 80px;
+    border-top: 1px solid rgb(5, 5, 5);
+    width: 100%;
+}
+  .extra h1 {
+    width: 50%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #000;
+    border: 10px;
+    font-family: monospace;
+  }
+  #followers,
+  #following {
+    font-style: unset;
+    font-size: 20px;
+    
+  }
